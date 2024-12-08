@@ -10,6 +10,6 @@ Aidan Hodges, Derek Lanz
 
 This version has been updated with Prof. Toal's feedback for the final.
 
-**GitHub Pages Link V**
+**GitHub Pages Link**
 
 https://dlanz1.github.io/CompoundInterestCalcFIXED/
