@@ -3,10 +3,10 @@ const interestInput = document.querySelector("#Interest");
 const compoundInput = document.querySelector("#Compounded");
 const yearInput = document.querySelector("#Years");
 const resultOutput = document.querySelector("#Result");
-const calculateBtn = document.querySelector("#calculateBtn");
+const calculateButton = document.querySelector("#calculateButton");
 const yearValue = document.querySelector("#YearsValue");
 
-calculateBtn.addEventListener("click", report);
+calculateButton.addEventListener("click", report);
 
 yearInput.addEventListener("input", () => {
   yearValue.textContent = yearInput.value;
