@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1><htext>Compound Interest Calculator</htext></h1>
+    </header>
+
+    <main>
+      <div><p>Initial Principal Balance</p><input id="Principal" /></div>
+      <div><p>Interest Rate</p><input id="Interest" /></div>
+      <div><p>Period</p><input id="Compounded" /></div>
+      <div>
+        <p>Years</p>
+        <input id="Years" type="range" min="1" max="50" step="1" value="1" />
+        <span id="YearsValue">1</span> 
+      </div>
+      <button id="calculateBtn">Click to see your final amount</button>
+      <div id="Result"></div>
+      <div> <img src="coins.webp"> </div>
+      <div> <img src="coins.webp"> </div>
+    </main>
+
+    <footer>Link to 
+      <link><a href="https://replit.com/join/ngxhtqwlzd-ahodges4">Repo</a></link>
+    </footer>
+
+    <script src="compoundinterest.js"></script>
+  </body>
+</html>
